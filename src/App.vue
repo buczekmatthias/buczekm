@@ -1,17 +1,20 @@
 <template>
-  <img alt="Astronaut" src="./assets/astronaut.png" />
+  <Hero />
+  <Projects />
+  <Contact />
 </template>
 
 <script>
+import HeroSection from "./components/HeroSection.vue";
+import ProjectsSection from "./components/ProjectsSection.vue";
+import ContactSection from "./components/ContactSection.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    Hero: HeroSection,
+    Projects: ProjectsSection,
+    Contact: ContactSection,
+  },
 };
 </script>
-
-<style>
-#app {
-  width: 100%;
-  min-height: 100vh;
-}
-</style>
