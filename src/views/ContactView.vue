@@ -4,7 +4,6 @@
 
 <script>
 export default {
-  name: "ContactSection",
-  components: {},
+  name: "ContactView",
 };
 </script>

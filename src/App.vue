@@ -1,20 +1,18 @@
 <template>
-  <Hero />
-  <Projects />
-  <Contact />
+  <Navbar />
+  <Sidebar />
+  <router-view />
 </template>
 
 <script>
-import HeroSection from "./components/HeroSection.vue";
-import ProjectsSection from "./components/ProjectsSection.vue";
-import ContactSection from "./components/ContactSection.vue";
+import NavbarComponent from "./components/NavbarComponent.vue";
+import SidebarComponent from "./components/SidebarComponent.vue";
 
 export default {
   name: "App",
   components: {
-    Hero: HeroSection,
-    Projects: ProjectsSection,
-    Contact: ContactSection,
+    Navbar: NavbarComponent,
+    Sidebar: SidebarComponent,
   },
 };
 </script>

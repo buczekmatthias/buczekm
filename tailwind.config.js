@@ -3,14 +3,25 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        primary: ["Karla"],
+      },
+      borderColor: {
+        primary: "#303030",
+      },
       colors: {
         text: "#fafafa",
-        primary: "#ff781e",
+        link: {
+          active: "#fcfcfc",
+          nav: "#fcfcfc80",
+          primary: "#ff781e",
+        },
       },
       backgroundColor: {
-        dark: "#12131c",
-        lightDark: "#191b2780",
-        primary: "#ff781e61",
+        dark: "#0a0a0a",
+      },
+      fill: {
+        primary: "#ff781e",
       },
     },
   },
