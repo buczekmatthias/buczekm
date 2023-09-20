@@ -11,6 +11,7 @@ module.exports = {
       },
       colors: {
         text: "#fafafa",
+        subtext: "#999999",
         link: {
           active: "#fcfcfc",
           nav: "#fcfcfc80",
@@ -19,6 +20,7 @@ module.exports = {
       },
       backgroundColor: {
         dark: "#0a0a0a",
+        light: "#1a1a1a",
       },
       fill: {
         primary: "#ff781e",

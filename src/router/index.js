@@ -7,22 +7,22 @@ import ContactView from "../views/ContactView.vue";
 const routes = [
   {
     path: "/",
-    name: "home",
+    name: "Home",
     component: HomeView,
   },
   {
     path: "/projects",
-    name: "projects",
+    name: "Projects",
     component: ProjectsView,
   },
   {
     path: "/stack",
-    name: "stack",
+    name: "Stack",
     component: StackView,
   },
   {
     path: "/contact",
-    name: "contact",
+    name: "Contact",
     component: ContactView,
   },
 ];

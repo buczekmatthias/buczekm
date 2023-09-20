@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-4 min-h-[calc(100vh-1rem-64px)] !pb-0">
+  <div class="flex flex-col gap-4 min-h-[calc(100vh-1rem-64px)] pt-8">
     <img src="../assets/astronaut.png" class="hidden lg:block" />
     <div class="flex flex-col gap-6">
       <p class="text-6xl font-semibold">Hi, I'm Matt</p>

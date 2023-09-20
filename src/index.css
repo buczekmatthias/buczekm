@@ -9,10 +9,7 @@ body {
   @apply min-h-screen w-full mx-auto flex flex-col items-center gap-4 lg:gap-0 lg:flex-row;
 }
 #app > * {
-  @apply w-full px-6 lg:px-0;
-}
-#app > div {
-  @apply py-8;
+  @apply w-full px-4 lg:px-0;
 }
 
 a {
