@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Front-end",
+    "items": [
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "Vue",
+        "icon": "vue.svg"
+      },
+      {
+        "name": "HTML",
+        "icon": "html.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.svg"
+      },
+      {
+        "name": "TailwindCSS",
+        "icon": "tailwind.svg"
+      }
+    ]
+  },
+  {
+    "name": "Back-end",
+    "items": [
+      {
+        "name": "PHP",
+        "icon": "php.svg"
+      },
+      {
+        "name": "Symfony",
+        "icon": "symfony.svg"
+      },
+      {
+        "name": "Laravel",
+        "icon": "laravel.svg"
+      },
+      {
+        "name": "Blade",
+        "icon": "blade.svg"
+      },
+      {
+        "name": "Twig",
+        "icon": "twig.png"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg"
+      }
+    ]
+  },
+  {
+    "name": "Tools",
+    "items": [
+      {
+        "name": "Git",
+        "icon": "git.svg"
+      },
+      {
+        "name": "Postman",
+        "icon": "postman.svg"
+      },
+      {
+        "name": "VS Code",
+        "icon": "vsc.svg"
+      },
+      {
+        "name": "XAMPP",
+        "icon": "xampp.svg"
+      }
+    ]
+  }
+]

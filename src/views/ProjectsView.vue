@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-8 pt-2">
+  <div class="flex flex-col gap-8 py-2">
     <div class="flex justify-between items-center">
       <p class="flex flex-col gap-3">
         <span class="text-4xl font-semibold">Projects</span>
