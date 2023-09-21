@@ -10,22 +10,15 @@
 <script>
 export default {
   name: "NavbarComponent",
-  data() {
-    return {
-      menu: null,
-    };
-  },
   mounted() {
-    this.menu = this.$refs.menu;
-
-    this.menu.addEventListener("click", this.menuListener);
+    this.$refs.menu.addEventListener("click", this.menuListener);
   },
   unmounted() {
-    this.menu.removeEventListener("click", this.menuListener);
+    this.$refs.menu.removeEventListener("click", this.menuListener);
   },
   methods: {
     menuListener() {
-      this.menu.classList.toggle("opened");
+      this.$refs.menu.classList.toggle("opened");
     },
   },
 };

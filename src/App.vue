@@ -14,14 +14,7 @@ export default {
     Navbar: NavbarComponent,
     Sidebar: SidebarComponent,
   },
-  data() {
-    return {
-      menu: null,
-    };
-  },
   mounted() {
-    this.menu = this.$refs.navbar.$refs.menu;
-
     window.addEventListener("resize", this.handleResize);
   },
   unmounted() {
@@ -29,8 +22,8 @@ export default {
   },
   methods: {
     handleResize() {
-      if (window.innerWidth >= 1024 && this.menu.classList.contains("opened")) {
-        this.menu.classList.remove("opened");
+      if (window.innerWidth >= 1024 && this.$refs.navbar.$refs.menu.classList.contains("opened")) {
+        this.$refs.navbar.$refs.menu.classList.remove("opened");
       }
     },
   },

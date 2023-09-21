@@ -12,8 +12,9 @@ body {
   @apply w-full px-4 lg:px-0;
 }
 
-a {
-  @apply text-link-primary;
+a,
+.pseudo-link {
+  @apply text-link-primary cursor-pointer;
 }
 nav a,
 aside a {
