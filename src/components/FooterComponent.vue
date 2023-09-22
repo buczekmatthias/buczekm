@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-auto border-t-[1px] border-t-primary border-solid py-4 text-center">
+  <div class="mt-auto border-t-[1px] border-t-primary border-solid py-4 text-center w-full lg:border-t-transparent lg:text-start lg:pl-6">
     <p>All rights reserved · {{ year }}</p>
   </div>
 </template>

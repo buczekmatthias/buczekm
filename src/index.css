@@ -6,10 +6,10 @@ body {
   @apply bg-dark text-text font-primary;
 }
 #app {
-  @apply min-h-screen w-full mx-auto flex flex-col items-center gap-4 lg:gap-0 lg:flex-row;
+  @apply min-h-screen w-full mx-auto flex flex-col items-center gap-4 lg:gap-0 lg:flex-row lg:items-start;
 }
 #app > * {
-  @apply w-full px-4 lg:px-0;
+  @apply w-full px-4;
 }
 
 a,
