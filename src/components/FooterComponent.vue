@@ -1,5 +1,6 @@
 <template>
-  <div class="mt-auto border-t-[1px] border-t-primary border-solid py-4 text-center w-full lg:border-t-transparent lg:text-start lg:pl-6">
+  <div class="container items-center">
+    <p class="border-b-2 border-dashed border-b-primary pb-6">Source code for this website is public on my <a href="https://github.com/buczekmatthias/buczekm" target="_blank" class="">github</a></p>
     <p>All rights reserved · {{ year }}</p>
   </div>
 </template>

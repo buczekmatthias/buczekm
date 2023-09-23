@@ -1,43 +1,30 @@
 <template>
-  <div class="flex flex-col gap-4 min-h-[calc(100vh-1rem-64px)] pt-8 lg:items-start lg:h-screen lg:px-0 lg:gap-12 lg:pt-12 lg:max-w-4xl">
-    <img src="../assets/astronaut.png" class="hidden lg:block h-40 lg:ml-6" />
-    <div class="flex flex-col gap-6 lg:px-6">
-      <p class="text-6xl font-semibold">Hi, I'm Matt</p>
-      <p class="flex flex-col gap-8">
-        <span>a {{ age }} years old passionate self-taught web dev that loves to play around with code and learning new things.</span>
-        <span>I work mainly with Laravel, I’m also familiar with Symfony and Vanilla PHP.</span>
-        <span>Currently I’m also trying to learn some front-end. I’ve decided to use Vue as my framework.</span>
-      </p>
-    </div>
-    <Footer />
-  </div>
+  <div class="absolute top-2 h-[calc(100%-1rem)] w-0.5 bg-line -z-10"></div>
+  <Greet />
+  <About />
+  <Projects />
+  <Stack />
+  <Contact />
+  <Footer />
 </template>
 
 <script>
+import GreetComponent from "@/components/GreetComponent.vue";
+import AboutComponent from "@/components/AboutComponent.vue";
+import ProjectsComponent from "@/components/ProjectsComponent.vue";
+import StackComponent from "@/components/StackComponent.vue";
+import ContactComponent from "@/components/ContactComponent.vue";
 import FooterComponent from "@/components/FooterComponent.vue";
 
 export default {
-  name: "HeroView",
+  name: "HomeView",
   components: {
+    Greet: GreetComponent,
+    About: AboutComponent,
+    Projects: ProjectsComponent,
+    Stack: StackComponent,
+    Contact: ContactComponent,
     Footer: FooterComponent,
-  },
-  data() {
-    return {
-      age: null,
-    };
-  },
-  methods: {
-    ageCalc() {
-      const currentDate = new Date();
-      const birthDate = new Date("1999-05-30");
-      const timeDiff = currentDate.getTime() - birthDate.getTime();
-      const totalDays = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-
-      this.age = Math.floor(totalDays / 365.25);
-    },
-  },
-  mounted() {
-    this.ageCalc();
   },
 };
 </script>

@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
-  important: "#app",
   theme: {
     extend: {
       fontFamily: {
@@ -14,17 +13,16 @@ module.exports = {
         text: "#fafafa",
         subtext: "#999999",
         link: {
-          active: "#fcfcfc",
-          nav: "#fcfcfc80",
           primary: "#ff781e",
         },
       },
       backgroundColor: {
-        dark: "#0a0a0a",
-        light: "#1a1a1a",
+        dark: "#181818",
+        light: "#1F1F1F",
+        line: "#C7C7C7",
       },
       fill: {
-        primary: "#ff781e",
+        primary: "#FAFAFA",
       },
     },
   },
