@@ -8,13 +8,15 @@
       <p class="text-3xl">Thank you</p>
       <p class="text text-sm">Thanks for visiting. I hope you enjoyed your stay.</p>
       <p class="text text-sm -mt-4">If I am what you are looking for, feel free to reach me out</p>
-      <div class="flex items-center gap-4">
-        <img src="../assets/icons/gmail.svg" alt="Gmail icon" class="h-5" />
-        <a class="cursor-pointer" @click="showToast">buczekmatthias@gmail.com</a>
-      </div>
-      <div class="flex items-center gap-4">
-        <img src="../assets/icons/discord.svg" alt="Discord icon" class="h-5" />
-        <a class="cursor-pointer" @click="showToast">_.hazy</a>
+      <div class="flex flex-col gap-6 sm:flex-row sm:gap-12">
+        <div class="flex items-center gap-4">
+          <img src="../assets/icons/gmail.svg" alt="Gmail icon" class="h-5" />
+          <a class="cursor-pointer" @click="showToast">buczekmatthias@gmail.com</a>
+        </div>
+        <div class="flex items-center gap-4">
+          <img src="../assets/icons/discord.svg" alt="Discord icon" class="h-5" />
+          <a class="cursor-pointer" @click="showToast">_.hazy</a>
+        </div>
       </div>
     </div>
   </div>
