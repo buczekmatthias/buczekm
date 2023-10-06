@@ -10,13 +10,13 @@
     "stack": ["Laravel", "Blade", "MySQL", "JavaScript", "TailwindCSS", "Git"]
   },
   {
+    "name": "Restaurant",
+    "description": "Sample restaurant website allowing online ordering and management of menu, employees and places. Built with Laravel, Blade, JavaScript and TailwindCSS",
+    "stack": ["Laravel", "Blade", "MySQL", "JavaScript", "TailwindCSS", "Git"]
+  },
+  {
     "name": "Gallery",
     "description": "Online portal storing photos, avalaible to download for everyone, based on Symfony framework, using Twig and JavaScript to handle front-end.",
     "stack": ["Symfony", "Twig", "MySQL", "JavaScript", "CSS", "Git"]
-  },
-  {
-    "name": "Delivered",
-    "description": "An online chat with real-time messages receiving serviced by Ratchet websocket. Whole application based is on Symfony framework, using Twig and JavaScript to handle front-end.",
-    "stack": ["Symfony", "Twig", "MySQL", "JavaScript", "CSS", "Git", "Ratchet"]
   }
 ]

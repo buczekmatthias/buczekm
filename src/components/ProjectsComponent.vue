@@ -36,17 +36,17 @@ export default {
           border: "border-solid border-b-primary border-b-[1px]",
         },
         {
+          name: "Restaurant",
+          emblem: "R",
+          color: "bg-[#645244]",
+          radius: "rounded-br-md",
+        },
+        {
           name: "Gallery",
           emblem: "G",
           color: "bg-[#533745]",
           radius: "rounded-bl-md",
           border: "border-solid border-r-primary border-r-[1px]",
-        },
-        {
-          name: "Delivered",
-          emblem: "D",
-          color: "bg-[#645244]",
-          radius: "rounded-br-md",
         },
       ],
     };
