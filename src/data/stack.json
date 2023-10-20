@@ -3,14 +3,6 @@
     "name": "Front-end",
     "items": [
       {
-        "name": "JavaScript",
-        "icon": "javascript.svg"
-      },
-      {
-        "name": "Vue",
-        "icon": "vue.svg"
-      },
-      {
         "name": "HTML",
         "icon": "html.svg"
       },
@@ -21,6 +13,14 @@
       {
         "name": "Tailwind",
         "icon": "tailwind.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "Vue",
+        "icon": "vue.svg"
       }
     ]
   },
@@ -32,10 +32,6 @@
         "icon": "php.svg"
       },
       {
-        "name": "Symfony",
-        "icon": "symfony.svg"
-      },
-      {
         "name": "Laravel",
         "icon": "laravel.svg"
       },
@@ -44,8 +40,16 @@
         "icon": "blade.svg"
       },
       {
+        "name": "Symfony",
+        "icon": "symfony.svg"
+      },
+      {
         "name": "Twig",
         "icon": "twig.png"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "postgresql.svg"
       },
       {
         "name": "MySQL",
@@ -57,16 +61,16 @@
     "name": "Tools",
     "items": [
       {
-        "name": "Git",
-        "icon": "git.svg"
+        "name": "VS Code",
+        "icon": "vsc.svg"
       },
       {
         "name": "Postman",
         "icon": "postman.svg"
       },
       {
-        "name": "VS Code",
-        "icon": "vsc.svg"
+        "name": "Git",
+        "icon": "git.svg"
       },
       {
         "name": "XAMPP",

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <p class="header">Stack</p>
-    <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6" v-for="category in stack" :key="category.name">
+    <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5" v-for="category in stack" :key="category.name">
       <p class="text-lg font-medium col-span-full">{{ category.name }}</p>
       <div class="flex flex-col gap-8 items-center border-primary border-[1px] border-solid rounded-lg p-6" v-for="item in category.items" :key="item.name">
         <img class="h-10" :src="getIcon(item.icon)" :alt="item.name + ' icon'" />
