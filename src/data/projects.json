@@ -2,21 +2,109 @@
   {
     "name": "buczekm",
     "description": "My website built with Vue.js and TailwindCSS",
-    "stack": ["Vue", "TailwindCSS", "Git"]
+    "stack": [
+      {
+        "name": "Vue",
+        "icon": "vue.svg"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "tailwind.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.svg"
+      }
+    ]
   },
   {
     "name": "BlogApp",
     "description": "An online blog application, based on Laravel framework, using Blade, TailwindCSS and JavaScript to handle front-end.",
-    "stack": ["Laravel", "Blade", "MySQL", "JavaScript", "TailwindCSS", "Git"]
+    "stack": [
+      {
+        "name": "Laravel",
+        "icon": "laravel.svg"
+      },
+      {
+        "name": "Blade",
+        "icon": "blade.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "tailwind.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.svg"
+      }
+    ]
   },
   {
     "name": "Restaurant",
     "description": "Sample restaurant website allowing online ordering and management of menu, employees and places. Built with Laravel, Blade, JavaScript and TailwindCSS",
-    "stack": ["Laravel", "Blade", "MySQL", "JavaScript", "TailwindCSS", "Git"]
+    "stack": [
+      {
+        "name": "Laravel",
+        "icon": "laravel.svg"
+      },
+      {
+        "name": "Blade",
+        "icon": "blade.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "tailwind.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.svg"
+      }
+    ]
   },
   {
     "name": "Gallery",
     "description": "Online portal storing photos, avalaible to download for everyone, based on Symfony framework, using Twig and JavaScript to handle front-end.",
-    "stack": ["Symfony", "Twig", "MySQL", "JavaScript", "CSS", "Git"]
+    "stack": [
+      {
+        "name": "Symfony",
+        "icon": "symfony.svg"
+      },
+      {
+        "name": "Twig",
+        "icon": "twig.png"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.svg"
+      }
+    ]
   }
 ]

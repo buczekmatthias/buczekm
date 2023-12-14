@@ -19,10 +19,12 @@ module.exports = {
       backgroundColor: {
         dark: "#181818",
         light: "#1F1F1F",
-        line: "#C7C7C7",
       },
       fill: {
         primary: "#FAFAFA",
+      },
+      screens: {
+        project: "576px",
       },
     },
   },

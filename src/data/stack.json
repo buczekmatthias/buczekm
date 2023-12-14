@@ -21,6 +21,10 @@
       {
         "name": "Vue",
         "icon": "vue.svg"
+      },
+      {
+        "name": "Inertia",
+        "icon": "inertia.png"
       }
     ]
   },
