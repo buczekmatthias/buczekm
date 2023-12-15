@@ -26,6 +26,10 @@ module.exports = {
       screens: {
         project: "576px",
       },
+      height: {
+        screen: ["100vh", "100dvh"],
+        modal: ["90vh", "90dvh"],
+      },
     },
   },
   plugins: [],
