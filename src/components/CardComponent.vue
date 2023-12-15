@@ -1,7 +1,7 @@
 <template>
   <div class="card" :class="classes">
     <p class="header" v-if="header">{{ header }}</p>
-    <div class="flex gap-4" :class="isRow ? '' : 'flex-col'">
+    <div :class="slotClasses">
       <slot></slot>
     </div>
   </div>
@@ -21,10 +21,9 @@ defineProps({
     required: false,
     validator: (v) => typeof v === "string" || v === null,
   },
-  isRow: {
-    type: Boolean,
-    required: false,
-    default: false,
+  slotClasses: {
+    type: String,
+    default: "flex flex-col gap-4",
   },
 });
 </script>

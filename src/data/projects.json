@@ -34,16 +34,16 @@
         "icon": "mysql.svg"
       },
       {
+        "name": "Git",
+        "icon": "git.svg"
+      },
+      {
         "name": "JavaScript",
         "icon": "javascript.svg"
       },
       {
         "name": "Tailwind",
         "icon": "tailwind.svg"
-      },
-      {
-        "name": "Git",
-        "icon": "git.svg"
       }
     ]
   },
@@ -64,16 +64,16 @@
         "icon": "mysql.svg"
       },
       {
+        "name": "Git",
+        "icon": "git.svg"
+      },
+      {
         "name": "JavaScript",
         "icon": "javascript.svg"
       },
       {
         "name": "Tailwind",
         "icon": "tailwind.svg"
-      },
-      {
-        "name": "Git",
-        "icon": "git.svg"
       }
     ]
   },
@@ -94,16 +94,16 @@
         "icon": "mysql.svg"
       },
       {
+        "name": "Git",
+        "icon": "git.svg"
+      },
+      {
         "name": "JavaScript",
         "icon": "javascript.svg"
       },
       {
         "name": "CSS",
         "icon": "css.svg"
-      },
-      {
-        "name": "Git",
-        "icon": "git.svg"
       }
     ]
   }
