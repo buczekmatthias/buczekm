@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "name": "Laravel",
+      "icon": "laravel.svg"
+    },
+    {
+      "name": "Blade",
+      "icon": "blade.svg"
+    },
+    {
+      "name": "Tailwind",
+      "icon": "tailwind.svg"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "javascript.svg"
+    },
+    {
+      "name": "Vue",
+      "icon": "vue.svg"
+    },
+    {
+      "name": "Inertia",
+      "icon": "inertia.png"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "postgresql.svg"
+    },
+    {
+      "name": "MySQL",
+      "icon": "mysql.svg"
+    },
+    {
+      "name": "HTML",
+      "icon": "html.svg"
+    },
+    {
+      "name": "CSS",
+      "icon": "css.svg"
+    },
+    {
+      "name": "Symfony",
+      "icon": "symfony.svg"
+    },
+    {
+      "name": "Twig",
+      "icon": "twig.png"
+    },
+    {
+      "name": "VS Code",
+      "icon": "vsc.svg"
+    },
+    {
+      "name": "Git",
+      "icon": "git.svg"
+    },
+    {
+      "name": "Postman",
+      "icon": "postman.svg"
+    },
+    {
+      "name": "XAMPP",
+      "icon": "xampp.svg"
+    }
+  ]
+}

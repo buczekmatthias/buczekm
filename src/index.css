@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark text-text font-primary bg-[url('./assets/circles.svg')] bg-fixed bg-cover flex flex-col items-center p-4 tracking-wide;
+}
+#app {
+  @apply max-w-5xl grid grid-cols-1 justify-items-center gap-3 w-full md:grid-cols-2 xl:grid-cols-3;
+}
+body:has(#project) {
+  @apply h-screen w-screen overflow-hidden max-project:p-0;
+}
+
+a {
+  @apply text-link-primary font-semibold;
+}
+
+.text {
+  @apply leading-7;
+}
+.card {
+  @apply bg-light rounded-lg p-6 w-full grid gap-4;
+}
+.header {
+  @apply border-b-2 border-b-primary border-dashed pb-4 text-2xl w-full text-center;
+}

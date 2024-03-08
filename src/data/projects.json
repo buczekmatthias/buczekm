@@ -1,0 +1,122 @@
+[
+  {
+    "name": "MemoryDazzle",
+    "description": "Social media platform application allowing following users, posting text and files, reacting and commenting to posts and grouping them",
+    "stack": [
+      {
+        "name": "Laravel",
+        "icon": "laravel.svg"
+      },
+      {
+        "name": "Vue",
+        "icon": "vue.svg"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "tailwind.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.svg"
+      },
+      {
+        "name": "Inertia",
+        "icon": "inertia.png"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "postgresql.svg"
+      }
+    ]
+  },
+  {
+    "name": "BlogApp",
+    "description": "An online blog application",
+    "stack": [
+      {
+        "name": "Laravel",
+        "icon": "laravel.svg"
+      },
+      {
+        "name": "Blade",
+        "icon": "blade.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "tailwind.svg"
+      }
+    ]
+  },
+  {
+    "name": "Restaurant",
+    "description": "Sample restaurant website allowing online ordering and management of menu, employees and places",
+    "stack": [
+      {
+        "name": "Laravel",
+        "icon": "laravel.svg"
+      },
+      {
+        "name": "Blade",
+        "icon": "blade.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "Tailwind",
+        "icon": "tailwind.svg"
+      }
+    ]
+  },
+  {
+    "name": "Gallery",
+    "description": "Online portal storing photos, avalaible to download for everyone.",
+    "stack": [
+      {
+        "name": "Symfony",
+        "icon": "symfony.svg"
+      },
+      {
+        "name": "Twig",
+        "icon": "twig.png"
+      },
+      {
+        "name": "MySQL",
+        "icon": "mysql.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "git.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "css.svg"
+      }
+    ]
+  }
+]
