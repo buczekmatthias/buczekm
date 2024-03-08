@@ -6,11 +6,11 @@
       <p class="text text-sm -mt-4">If you are in need of my help, feel free to reach me out</p>
     </div>
     <div class="grid grid-cols-2 gap-8 justify-items-start xl:gap-2">
-      <a class="cursor-pointer col-span-full flex items-center gap-3 lg:col-start-1 lg:col-end-3 xl:col-auto" @click.prevent="copyToast('buczekmatthias@gmail.com', 'E-mail')">
+      <a class="cursor-pointer col-span-full flex items-center gap-3" @click.prevent="copyToast('buczekmatthias@gmail.com', 'E-mail')">
         <img src="../assets/icons/gmail.svg" alt="Gmail icon" class="h-5" />
         <p>buczekmatthias@gmail.com</p>
       </a>
-      <a href="https://github.com/buczekmatthias" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 xl:col-start-1">
+      <a href="https://github.com/buczekmatthias" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3">
         <img src="../assets/icons/github.svg" alt="Github" class="h-5" />
         <p>buczekmatthias</p>
       </a>
