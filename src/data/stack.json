@@ -29,6 +29,10 @@
       "icon": "postgresql.svg"
     },
     {
+      "name": "SQLite",
+      "icon": "sqlite.svg"
+    },
+    {
       "name": "MySQL",
       "icon": "mysql.svg"
     },
@@ -49,20 +53,8 @@
       "icon": "twig.png"
     },
     {
-      "name": "VS Code",
-      "icon": "vsc.svg"
-    },
-    {
       "name": "Git",
       "icon": "git.svg"
-    },
-    {
-      "name": "Postman",
-      "icon": "postman.svg"
-    },
-    {
-      "name": "XAMPP",
-      "icon": "xampp.svg"
     }
   ]
 }
