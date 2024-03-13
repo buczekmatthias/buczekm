@@ -25,6 +25,10 @@
       "icon": "inertia.png"
     },
     {
+      "name": "PostCSS",
+      "icon": "postcss.svg"
+    },
+    {
       "name": "PostgreSQL",
       "icon": "postgresql.svg"
     },
