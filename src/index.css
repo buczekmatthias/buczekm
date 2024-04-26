@@ -12,7 +12,8 @@ body:has(#project) {
   @apply h-screen w-screen overflow-hidden max-project:p-0;
 }
 
-a {
+a,
+.clickable {
   @apply text-link-primary font-semibold;
 }
 

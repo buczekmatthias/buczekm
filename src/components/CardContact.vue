@@ -6,18 +6,18 @@
       <p class="text text-sm -mt-4">If you are in need of my help, feel free to reach me out</p>
     </div>
     <div class="grid grid-cols-2 gap-8 justify-items-start xl:gap-2">
-      <a class="cursor-pointer col-span-full flex items-center gap-3" @click.prevent="copyToast('buczekmatthias@gmail.com', 'E-mail')">
+      <div class="clickable cursor-pointer col-span-full flex items-center gap-3" @click.prevent="copyToast('buczekmatthias@gmail.com', 'E-mail')">
         <img src="../assets/icons/gmail.svg" alt="Gmail icon" class="h-5" />
         <p>buczekmatthias@gmail.com</p>
-      </a>
+      </div>
       <a href="https://github.com/buczekmatthias" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3">
         <img src="../assets/icons/github.svg" alt="Github" class="h-5" />
         <p>buczekmatthias</p>
       </a>
-      <a class="cursor-pointer flex items-center gap-3" @click.prevent="copyToast('_.hazy', 'Discord')">
+      <div class="clickable cursor-pointer flex items-center gap-3" @click.prevent="copyToast('_.hazy', 'Discord')">
         <img src="../assets/icons/discord.svg" alt="Discord icon" class="h-5" />
         <p>_.hazy</p>
-      </a>
+      </div>
     </div>
     <div class="flex flex-col items-center gap-6 xl:flex-row xl:justify-between xl:col-span-full border-t border-solid border-t-primary pt-6">
       <p class="text-center">Portfolio <a href="https://github.com/buczekmatthias/buczekm" target="_blank">source code</a> is public on github</p>
