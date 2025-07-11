@@ -9,9 +9,9 @@ import Projects from "@/components/Projects.vue";
 <template>
   <div class="flex flex-col gap-6 pb-3">
     <Banner />
-    <Stack />
     <Availability />
     <About />
+    <Stack />
     <Projects />
   </div>
 </template>

@@ -1,21 +1,16 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-import { Mail } from "lucide-vue-next";
 import { Icon } from "@iconify/vue";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { Button } from "@/components/ui/button";
-
-const isComponent = (icon: any): boolean => typeof icon !== "string";
 
 const profiles = ref<
   {
-    icon: any;
+    icon: string;
     content: string;
   }[]
 >([
   {
-    icon: Mail,
+    icon: "octicon:mail-24",
     content: "buczekmatthias@gmail.com",
   },
   {
@@ -34,7 +29,7 @@ const profiles = ref<
     <div class="section-content">
       <h4 class="section-header">About me</h4>
       <p class="flex flex-col gap-3 leading-[160%] max-lg:text-sm">
-        <span>Welcome to my portfolio! I'm a passionate software developer with a strong focus on back-end development. Born in 1999, I've grown up in the digital age, which has fueled my enthusiasm for technology and innovation.</span>
+        <span>I'm a passionate software developer with a strong focus on back-end development. Born in 1999, I've grown up in the digital age, which has fueled my enthusiasm for technology and innovation.</span>
         <span>Although I am at the beginning of my professional journey, my dedication to creating efficient and robust applications is unwavering. I am constantly seeking to expand my knowledge and skills, and I am open to exploring new technologies and opportunities in the tech world.</span>
         <span>When I'm not coding, you can find me immersed in various hobbies such as playing video games, watching anime, movies, and series, or reading manga. I also have a keen appreciation for good food, which I believe is essential for a balanced life.</span>
         <span>I am excited about the prospect of contributing to meaningful projects and collaborating with like-minded professionals.</span>
@@ -45,13 +40,8 @@ const profiles = ref<
         v-for="item in profiles"
         :key="item.content"
       >
-        <p class="[&_svg:not([class*='size-'])]:size-4 flex items-center gap-1.5">
-          <template v-if="isComponent(item.icon)">
-            <component :is="item.icon"></component>
-          </template>
-          <template v-else>
-            <Icon :icon="item.icon" />
-          </template>
+        <p class="[&_svg:not([class*='size-'])]:size-4 flex items-center gap-3">
+          <Icon :icon="item.icon" />
           {{ item.content }}
         </p>
       </template>

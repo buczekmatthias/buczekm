@@ -97,4 +97,11 @@
   .section-content {
     @apply flex flex-col gap-1 lg:gap-4;
   }
+
+  .orbitron {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
 }

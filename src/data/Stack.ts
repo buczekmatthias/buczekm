@@ -1,73 +1,48 @@
 export interface StackItem {
-  name: string;
-  icon: string;
+  [key: string]: string;
 }
 
-const baseStack = () =>
-  <StackItem[]>[
-    {
-      name: "Laravel",
-      icon: "devicon:laravel",
-    },
-    {
-      name: "Inertia",
-      icon: "simple-icons:inertia",
-    },
-    {
-      name: "TypeScript",
-      icon: "devicon:typescript",
-    },
-    {
-      name: "PostgreSQL",
-      icon: "devicon:postgresql",
-    },
-    {
-      name: "Vue",
-      icon: "devicon:vuejs",
-    },
-    {
-      name: "Tailwind",
-      icon: "devicon:tailwindcss",
-    },
-  ];
+const INCREMENT_LIMIT_VALUE: number = 4;
 
-const getStack = () =>
-  <StackItem[]>[
-    ...baseStack(),
-    {
-      name: "CSS",
-      icon: "devicon:css3",
-    },
-    {
-      name: "Git",
-      icon: "devicon:git",
-    },
-    {
-      name: "HTML",
-      icon: "devicon:html5",
-    },
-    {
-      name: "JavaScript",
-      icon: "devicon:javascript",
-    },
-    {
-      name: "MySQL",
-      icon: "devicon:mysql",
-    },
-    {
-      name: "PHP",
-      icon: "devicon:php",
-    },
-    {
-      name: "SQLite",
-      icon: "devicon:sqlite",
-    },
-    {
-      name: "Symfony",
-      icon: "devicon:symfony",
-    },
-  ];
+const stack: { [key: string]: StackItem } = {
+  Frontend: {
+    TypeScript: "simple-icons:typescript",
+    JavaScript: "simple-icons:javascript",
+    TailwindCSS: "simple-icons:tailwindcss",
+    Vue: "simple-icons:vuedotjs",
+    InertiaJS: "simple-icons:inertia",
+    HTML: "simple-icons:html5",
+    CSS: "simple-icons:css3",
+  },
+  Backend: {
+    Laravel: "simple-icons:laravel",
+    Symfony: "simple-icons:symfony",
+    PHP: "simple-icons:php",
+    PostgreSQL: "simple-icons:postgresql",
+    MySQL: "simple-icons:mysql",
+    SQLite: "simple-icons:sqlite",
+  },
+  Tools: {
+    Git: "simple-icons:git",
+    VSCode: "simple-icons:visualstudiocode",
+  },
+};
 
-const getProjectStackContent = (stack: string[]) => getStack().filter((item) => stack.includes(item.name.toLocaleLowerCase()));
+const getStack = (): { [key: string]: string } => Object.assign({}, ...Object.values(stack).map((group) => group));
 
-export { baseStack, getStack, getProjectStackContent };
+const getProjectStackContent = (stack: string[]): StackItem => Object.fromEntries(Object.entries(getStack()).filter(([key, value]) => stack.includes(key.toLocaleLowerCase())));
+
+const getGroupLength = (group: string): number => Object.keys(stack[group]).length;
+
+const getRemainingItems = (group: string): number => {
+  const diff = getGroupLength(group) - INCREMENT_LIMIT_VALUE;
+
+  return diff < 0 ? 0 : diff;
+};
+
+const getEntries = (group: string, showAll: boolean = false): StackItem => {
+  const entries = Object.entries(stack[group]).slice(0, showAll ? getGroupLength(group) : INCREMENT_LIMIT_VALUE);
+  return Object.fromEntries(entries);
+};
+
+export { stack, getProjectStackContent, getRemainingItems, getEntries };
