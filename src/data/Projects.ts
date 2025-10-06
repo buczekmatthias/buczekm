@@ -29,34 +29,34 @@ export const projects: ProjectType[] = [
     images: [],
     stack: getProjectStackContent(["laravel", "vue", "tailwindcss", "inertiajs", "postgresql", "git"]),
   },
-  {
-    name: "Card tracker",
-    description: "Card tracker for TheTower mobile game",
-    links: {
-      github: "https://github.com/buczekmatthias/card-tracker",
-      website: "https://tower-card-tracker.vercel.app/",
-    },
-    images: ["stats.png", "tracker.png", "tracker_slots.png", "tracker_card.png", "presets.png", "share.png"],
-    stack: getProjectStackContent(["vue", "tailwindcss", "git"]),
-  },
-  {
-    name: "Lab speedup calc",
-    description: "Lab speed-up calculator for TheTower mobile game",
-    links: {
-      github: "https://github.com/buczekmatthias/lab-speedup-calc",
-      website: "https://tower-lab-speedup-calc.vercel.app/",
-    },
-    images: ["app.png"],
-    stack: getProjectStackContent(["vue", "tailwindcss", "git"]),
-  },
-  {
-    name: "Tower module tracker",
-    description: "Module tracker for TheTower mobile game",
-    links: {
-      github: "https://github.com/buczekmatthias/tower-module-tracker",
-      website: "https://tower-module-tracker.vercel.app/",
-    },
-    images: ["modules.png", "bonuses.png", "share.png"],
-    stack: getProjectStackContent(["vue", "tailwindcss", "git"]),
-  },
+  // {
+  //   name: "Card tracker",
+  //   description: "Card tracker for TheTower mobile game",
+  //   links: {
+  //     github: "https://github.com/buczekmatthias/card-tracker",
+  //     website: "https://tower-card-tracker.vercel.app/",
+  //   },
+  //   images: ["stats.png", "tracker.png", "tracker_slots.png", "tracker_card.png", "presets.png", "share.png"],
+  //   stack: getProjectStackContent(["vue", "tailwindcss", "git"]),
+  // },
+  // {
+  //   name: "Lab speedup calc",
+  //   description: "Lab speed-up calculator for TheTower mobile game",
+  //   links: {
+  //     github: "https://github.com/buczekmatthias/lab-speedup-calc",
+  //     website: "https://tower-lab-speedup-calc.vercel.app/",
+  //   },
+  //   images: ["app.png"],
+  //   stack: getProjectStackContent(["vue", "tailwindcss", "git"]),
+  // },
+  // {
+  //   name: "Tower module tracker",
+  //   description: "Module tracker for TheTower mobile game",
+  //   links: {
+  //     github: "https://github.com/buczekmatthias/tower-module-tracker",
+  //     website: "https://tower-module-tracker.vercel.app/",
+  //   },
+  //   images: ["modules.png", "bonuses.png", "share.png"],
+  //   stack: getProjectStackContent(["vue", "tailwindcss", "git"]),
+  // },
 ];
