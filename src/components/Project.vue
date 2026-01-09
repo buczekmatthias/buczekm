@@ -25,7 +25,7 @@ const getProjectIndexNumber = computed((): string => (props.index + 1).toString(
 
 const getSheetSide = computed((): "right" | "bottom" => (isMediumOrBiggerDevice.value ? "right" : "bottom"));
 
-const getProjectFolder = computed((): string => props.project.name.toLowerCase().replace(/\s+/g, "-"));
+const getProjectFolder = computed((): string => props.project.name.toLowerCase());
 
 const processedImages = computed((): ProcessedImage[] =>
   props.project.images.map((img: string) => {
